@@ -27,7 +27,7 @@ app.use(getByID);
 
 
 app.get('*',function(req, res){
-	res.send('please look at your terminal')
+	res.send('refresh the browser once and look at your terminal')
 })
 
 
